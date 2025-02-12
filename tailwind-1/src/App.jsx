@@ -21,8 +21,6 @@ function App() {
             <div className="btn in flex justify-center">
             <button >send</button>
             </div>
-            
-
         </div>
     </div>
   )
