@@ -11,7 +11,7 @@ export const Sidebar1 =()=>{
         </div>  */}
 
 <div className={`h-screen ${darki ? "dark:bg-green-600" : "bg-red-200"} flex-1`}>
-</div>
+</div> 
 
         <button onClick={()=>{
           setdarkii((c)=>!c);
