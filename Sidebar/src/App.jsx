@@ -1,10 +1,10 @@
 import './App.css'
-
+import { Sidebar1 } from './Sidebar1'
 function App() {
 
   return (
     <>
-      
+      <Sidebar1 />
     </>
   )
 }
