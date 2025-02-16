@@ -6,7 +6,9 @@ export const Sidebar1 =()=>{
   return  (
     <div className={`${darki ? "dark" : ""}`}>
 
-        <div className="dark:bg-green-600 h-20 w-20 bg-red-200">
+        
+        <div className="dark:bg-black h-20 w-20 bg-pink-200">
+          <p class="dark:text-white text-black">hello</p>
         </div> 
 
         <button onClick={()=>{
