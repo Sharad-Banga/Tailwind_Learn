@@ -4,14 +4,15 @@ export const Sidebar1 =()=>{
   const [darki ,setdarkii] = useState(true);
 
   return  (
-    <div className="flex">
+    <div className={`${darki ? "dark" : ""}`}>
 
-        <div className={`h-screen ${darki ? "dark:bg-green-600" : "bg-red-200"} flex-1`}>
+        <div className="dark:bg-green-600 h-20 w-20 bg-red-200">
         </div> 
 
         <button onClick={()=>{
           setdarkii((c)=>!c);
-          console.log({darki});
+          console.log(darki);
+          
           
         }}>toggle</button>
 
