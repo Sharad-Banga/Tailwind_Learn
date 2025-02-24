@@ -7,7 +7,7 @@ export const Sidebar1 =()=>{
     <div className={`${darki ? "dark" : ""}`}>
 
         
-        <div className="dark:bg-black h-20 w-20 bg-pink-200">
+        <div className="  dark:bg-black h-20 w-20 bg-pink-200">
           <p class="dark:text-white text-black">hello</p>
         </div> 
 
